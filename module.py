@@ -60,7 +60,7 @@ def main():
 	print len(sys.argv)
 	if len(sys.argv)>1:
 		address=sys.argv[1]
-	appname=u'有料短视频'
+	appname=u'快手'
 	print '设备信息:' + str(device)
 	session = device.attach(appname)
 	listModulesoOfProcess(session)
